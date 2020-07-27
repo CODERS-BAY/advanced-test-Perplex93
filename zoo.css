@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+}
+
+header{
+    height: 800px;
+    background-image: url(junho--2BrRdmJdwE-unsplash.jpg);
+    background-size: contain;
+    max-width: 100%;
+
+}
+nav{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+ul {
+    
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-right: 25px;
+}
+
+#navimg {
+    padding-top: 50px;
+    width: 80px;
+}
+
+hr{
+    width: 800px;
+    margin-top: -50px;
+}
+
+button{
+    background-color: brown;
+    border: 1px solid grey;
+    color: white;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;  
+}
+
+#buttons{
+    text-align: center;
+}
+
+h1{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    width: 800px;
+}
+
+#warnings{
+    color: red;
+}
