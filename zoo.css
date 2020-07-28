@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fontawesome.com/v4.7.0/icon/instagram');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 
 body{
-    font-family: 'Bangers', cursive;
+    
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
 }
 
@@ -12,12 +16,17 @@ header{
     background-repeat: no-repeat;
     max-width: 100%;
 }
+
+header:hover{
+    scale: 110%;
+}
 nav{
     color: white;
     width: 100%;
     text-align: center;
     padding-top: 10px;
 }
+
 
 ul {
 display: inline;
@@ -28,6 +37,7 @@ li {
     display: inline;
     padding-right: 25px;
     padding-top: 0px;
+    font-weight: 900;
 }
 
 #navimg {
@@ -36,20 +46,26 @@ li {
     height: 80px;
 }
 
+
 hr{
+    margin-top: 50px;
     width: 1000px;
+    color: white;
+    opacity: 50%;
+    
 }
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
-    color: orange;
+    color: #D13044; 
 }
 
 button{
-    background-color: orange;
+    background-color: #851825;
     border: 3px groove black;
     border-radius: 15px;
     color: black;
@@ -67,6 +83,11 @@ button:active{
     color: white;
 }
 
+button:hover{
+    opacity: 80%;
+    scale: 110%;
+}
+
 #buttons{
     text-align: center;
 }
@@ -75,6 +96,8 @@ h1{
     padding-top: 100px;
     text-align: center;
     color: white;
+    font-family: 'Bangers', cursive;
+    transition: ease-in 1s;
 }
 
 #herzlich{
@@ -98,19 +121,120 @@ p {
 }
 
 #warnings{
-    color: red;
+    color: #D13044;
 }
 
 article{
-    background-color: lightgray;
+    background-color: white;
 }
 
 #partner{
     width: 150px;
-    margin: 20px 45% ;
+    margin: 20px auto ;
+    display: block;
+    padding: 2% 0;
 }
 
 #news{
     color: black;
     margin-top: -30px;
 }
+
+section{
+    text-align: center;
+}
+
+div.news, div.veranstaltungen{
+    width: 250px;
+    text-align: center;
+    color: white;
+    display: inline-block; 
+    border: 3px solid black; 
+    border-radius: 25% 25% 0 25%;
+    margin-right: 25px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.news img, .veranstaltungen img{
+    width:250px;
+    height: 200px;
+    border-radius: 25% 25% 0% 25%;
+}
+
+div.news:hover, div.veranstaltungen:hover{
+    scale: 110%;
+}
+
+#newsbutton, #veranstaltungbutton{
+    width: 250px;
+    height: 60px;
+    border-radius: 25px;
+    position: relative;
+    margin: 50px 45% 10px ;
+    color: white;
+    font-size:20px;
+}
+
+#veranstaltungbutton{
+    margin-bottom: 100px;
+}
+
+#veranstaltungenh1{
+    color: black;
+    padding-top: 50px;
+}
+
+#newsstrich, #veranstaltungstrich{
+    width: 60px;
+    height: 3px;
+    background-color: green;
+}
+
+main {
+    background-color: black;
+    padding-top:30px;
+}
+
+h5{
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+}
+
+.öffnungszeiten{
+    font-size: 14px;
+    padding-top: 10px;
+    color: white;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.social{
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-color: green;
+    margin-top: 80px;
+    font-size: 34px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #851825;
+    padding-top: 20px;
+    height: 50px;
+}
+
+.footerlinks{
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+
+
