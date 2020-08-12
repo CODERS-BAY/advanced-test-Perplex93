@@ -16,20 +16,115 @@
             </ol>
         </nav>
     </header>
-    <div id="carouselEamplesSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/img/mastery.webp" alt="" class="d-block w-100">
+          <div class="carousel-item active">
+            <img src="/img/css-comic.jpg" style="height: 400px;" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/e717c6de24807d48b6509b94d13e4de27479.jpg" style="height: 400px;" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/mastery.webp" style="height:400px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <p>
+          <a class="btn btn-danger" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="MultiCollapseExample1">
+              Über mich
+          </a>
+          <button class="btn btn-success" type="button" data-toggle="collapse" data-target=#multiCollapseExample2 aria-expanded="false" aria-controls="multiCollapseExample2">
+              Informationen
+          </button>
+          <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
+              Kontakt
+          </button>
+      </p>
+      <div class="row">
+          <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+              Mehr informationen in Arbeit.
+          </div>
+        </div>
+      </div>
+      <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="card card-body">
+                  Weitere Informationen in Arbeit
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Übung #1
+                    </button>
+                </h2>
             </div>
-            <div class="carousel-item">
-                <img src="/img/css-comic.jpg" alt="" class="d-block w-100">
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Hier kommt der text hinein.
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="/img/Htmlcomicstrip.png" alt="" class="d-block w-100">
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Übung #2
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Hier kommt noch mehr text.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Übung #3
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Und noch mehr text.
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="btn-group">
+        <button type="button" class="btn btn-dark btn-lg">Action</button>
+        <button class="btn btn-dark dropdown-toggle dropdown-toggle-split btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <h6 class="dropdown-header">Dropdown-header</h6>
+            <a class="dropdown-item active" href="#">Action</a>
+            <a href="#" class="dropdown-item disabled">Another Action</a>
+            <a href="#" class="dropdown-item">Somthing else here</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Separated link</a>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
